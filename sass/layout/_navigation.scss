@@ -1,0 +1,66 @@
+.navigation{
+background-color: $color-white;
+height: 10rem;
+width: 103vw;
+
+
+
+  //margin-top: 24vh;
+  z-index: -100;
+
+  &__logo{
+    margin-top: .8rem;
+    width: 17rem;
+    position: relative;
+    top: 0;
+    left: 10rem;
+    //opacity: 0.7; fade the logo looks better
+  }
+
+&__nav{
+width: 70rem;
+
+}
+
+  &__list{
+    width: 100%;
+    //border: 1px solid $color-black;
+    margin-top: 3rem;
+  }
+
+  &__item{
+    display: inline;
+    margin-right: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__link{
+    text-decoration: none;
+    color: $color-grey-dark;
+    font-weight: 700;
+    font-size: 1.4rem;
+
+
+
+  }
+}
+
+li:focus{
+      outline: none;
+      //box-shadow: 0 1rem 2rem rgba($color-black, .1);
+      padding-bottom: 1.2rem;
+      border-bottom: 2px solid $color-tertiary-dark;
+    }
+
+
+          ul:hover > li:focus{
+              background: none;
+
+
+            }
+            ul:hover > li:hover{
+              outline: none;
+              //box-shadow: 0 1rem 2rem rgba($color-black, .1);
+              padding-bottom: 1.2rem;
+              border-bottom: 2px solid $color-tertiary-dark;
+            }

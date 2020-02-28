@@ -1,0 +1,47 @@
+.slide-container{
+  width: 60%;
+  height: 40rem;
+  margin-left: 40rem;
+  padding-top: 30rem;
+
+  // box-shadow: 0 3rem 6rem rgba($color-black, .1);
+//  box-shadow: 0 0 2rem .5rem grey;
+  overflow: hidden;
+
+  &__image{
+
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+
+animation: webzone 20s infinite linear;
+
+    &--photo{
+      width: 20%;
+      height: 50rem;
+      float: left;
+    }
+  }
+
+}
+
+@keyframes webzone{
+  0%{left: 0%;}
+  15%{left: 0%;}
+  20%{left: -100%;}
+  35%{left: -100%;}
+  40%{left: -200%;}
+  60%{left: -200%;}
+  65%{left: -300%;}
+  80%{left: -300%;}
+  85%{left: -400%;}
+  100%{left: -400%;}
+  /*100%{left: -500%;}
+  100%{left: -500%;}
+  135%{left: -600%;}
+  140%{left: -600%;}
+  160%{left: -700%;}
+  165%{left: -700%;}*/
+
+  }

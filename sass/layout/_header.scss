@@ -1,0 +1,21 @@
+.header{
+height: 95vh;
+background-image: linear-gradient(to right bottom, rgba($color-black, 0.5), rgba($color-black, 0.5)), url(../img/module-2.png);
+background-size: cover;
+background-position: top;
+position: relative;
+margin-top: -14vh;
+z-index: -1;
+width: 103vw;
+
+&__text-box {
+position:absolute;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+
+}
+
+}

@@ -1,0 +1,93 @@
+.footer{
+  width: 103vw;
+  overflow: auto;
+  padding: 7rem 0;
+  display: block;
+  border-bottom: solid 5rem;
+  //border-color: black;
+  //border: solid 10px;
+  //background-color: orangered;
+
+&-container{
+
+width: 80vw;
+margin: 0 auto;
+display: block;
+//background-color: black;
+height: 35rem;
+//padding: auto;
+//height: auto;
+position: relative;
+
+&__logo{
+  position: absolute;
+  left: 14%;
+  display: inline-block;
+  top: 9rem;
+}
+
+&__section{
+ position: absolute;
+ right: 7%;
+ display: inline-block;
+ top: 5rem;
+
+ &--info{
+ float: left;
+ //position: absolute;
+ //left: 20%;
+   margin-right: 4rem;
+   display: inline-block;
+   text-align: left;
+
+ }
+ &--2{
+   position: relative;
+   height: 35rem;
+ }
+
+}
+}
+
+
+
+&-logo{
+
+  width: 36rem;
+  // position: absolute;
+  // left: 30%;
+  // margin-top: 10rem;
+
+  //right: 2rem;
+}
+
+&-picture{
+
+  width: 30rem;
+  height: 25rem;
+  display: inline-block;
+  // position: absolute;
+  // left: 30%;
+  // margin-top: 10rem;
+
+  //right: 2rem;
+}
+
+&-google{
+  display: inline-block;
+  position: absolute;
+}
+
+&-exam-logo{
+  height: 6rem;
+  width: 6rem;
+}
+&-exam{
+  position: absolute;
+}
+
+&-address{
+   position: absolute;
+}
+
+}

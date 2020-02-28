@@ -1,0 +1,73 @@
+.testimonials{
+background: #161d25; //transparent;
+width: 19%;
+height: 40%;
+padding-left: 5rem;
+margin-top: -41.9rem ;
+
+&__text{
+  display: block;
+  width: 35rem;
+  height: 7rem;
+  float: left;
+  font-size: 1.2rem;
+  letter-spacing: .8px;
+//  text-align: inherit;
+//  padding-right: .5rem;
+//  padding-left: .5rem
+  //display: inline-block;
+
+  //padding-right: 2px;
+}
+&__carousel{
+outline: 1px solid red;
+width: 35rem;
+height: 20rem;
+padding-left: 3px;
+margin-right: -3.3rem;
+margin-left: -2.5rem;
+
+
+overflow-x: hidden;
+
+
+&--content{
+  list-style: none;
+  display: flex;
+animation-name: slide;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+animation-fill-mode: both;
+
+
+&:hover{
+  animation-play-state: paused;
+}
+}
+}
+
+
+}
+
+@keyframes slide{
+  10%{
+    transform: translateX(0);
+  }
+
+15%,  30%{
+    transform: translateX(-35rem);
+  }
+
+35%, 50%{
+    transform: translateX(-70.1rem);
+  }
+55%,  70%{
+
+    transform: translateX(-105.1rem);
+  }
+75%,  90%{
+    transform: translateX(0);
+  }
+
+}
