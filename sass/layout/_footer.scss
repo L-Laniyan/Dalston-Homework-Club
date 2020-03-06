@@ -3,7 +3,7 @@
   overflow: auto;
   padding: 7rem 0;
   display: block;
-  border-bottom: solid 5rem;
+  border-bottom: solid 1rem;
   //border-color: black;
   //border: solid 10px;
   //background-color: orangered;
@@ -14,7 +14,7 @@ width: 80vw;
 margin: 0 auto;
 display: block;
 //background-color: black;
-height: 35rem;
+height: 73rem;
 //padding: auto;
 //height: auto;
 position: relative;
@@ -28,22 +28,41 @@ position: relative;
 
 &__section{
  position: absolute;
- right: 7%;
+ right: 0.1%;
  display: inline-block;
  top: 5rem;
+ //margin-bottom: 3rem;
 
  &--info{
  float: left;
  //position: absolute;
  //left: 20%;
-   margin-right: 4rem;
+   //margin-right: 4rem;
    display: inline-block;
    text-align: left;
+   &:not(:last-child){
+    margin-right: 4rem;
+  }
 
+ }
+ &--1{
+   position: relative;
+   display: block;
+   //height: 10rem;
+   right: 10%;
  }
  &--2{
    position: relative;
-   height: 35rem;
+   top: 40rem;
+   display: block;
+   height: 40rem;
+   right: 22rem;
+   background-color: $color-grey-dark;
+   width: 99vw;
+   color: white;
+   //width: 60vw;
+//   margin-top: 5rem;
+
  }
 
 }
@@ -64,7 +83,7 @@ position: relative;
 &-picture{
 
   width: 30rem;
-  height: 25rem;
+  height: 35rem;
   display: inline-block;
   // position: absolute;
   // left: 30%;
@@ -74,20 +93,36 @@ position: relative;
 }
 
 &-google{
+ position: absolute;
+ display: inline-block;
+ right: 25rem;
+ margin-right: 2rem;
+
+
+&__1{
   display: inline-block;
-  position: absolute;
+
+}
 }
 
 &-exam-logo{
   height: 6rem;
-  width: 6rem;
+  width: 10rem;
+  display: block;
+  margin-top: 1.5rem;
 }
 &-exam{
+  display: inline-block;
+  height: 40rem;
   position: absolute;
+  left: 15%;
 }
 
 &-address{
-   position: absolute;
+ display: inline-block;
+ position: absolute;
+ left: 30%;
+ margin-top: 3rem;
 }
 
 }

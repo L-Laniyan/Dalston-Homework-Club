@@ -453,12 +453,12 @@ body {
   overflow: auto;
   padding: 7rem 0;
   display: block;
-  border-bottom: solid 5rem; }
+  border-bottom: solid 1rem; }
   .footer-container {
     width: 80vw;
     margin: 0 auto;
     display: block;
-    height: 35rem;
+    height: 73rem;
     position: relative; }
     .footer-container__logo {
       position: absolute;
@@ -467,39 +467,64 @@ body {
       top: 9rem; }
     .footer-container__section {
       position: absolute;
-      right: 7%;
+      right: 0.1%;
       display: inline-block;
       top: 5rem; }
       .footer-container__section--info {
         float: left;
-        margin-right: 4rem;
         display: inline-block;
         text-align: left; }
+        .footer-container__section--info:not(:last-child) {
+          margin-right: 4rem; }
+      .footer-container__section--1 {
+        position: relative;
+        display: block;
+        right: 10%; }
       .footer-container__section--2 {
         position: relative;
-        height: 35rem; }
+        top: 40rem;
+        display: block;
+        height: 40rem;
+        right: 22rem;
+        background-color: #777;
+        width: 99vw;
+        color: white; }
   .footer-logo {
     width: 36rem; }
   .footer-picture {
     width: 30rem;
-    height: 25rem;
+    height: 35rem;
     display: inline-block; }
   .footer-google {
+    position: absolute;
     display: inline-block;
-    position: absolute; }
+    right: 25rem;
+    margin-right: 2rem; }
+    .footer-google__1 {
+      display: inline-block; }
   .footer-exam-logo {
     height: 6rem;
-    width: 6rem; }
+    width: 10rem;
+    display: block;
+    margin-top: 1.5rem; }
   .footer-exam {
-    position: absolute; }
+    display: inline-block;
+    height: 40rem;
+    position: absolute;
+    left: 15%; }
   .footer-address {
-    position: absolute; }
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    margin-top: 3rem; }
 
 .navigation {
   background-color: #fff;
   height: 10rem;
   width: 103vw;
-  z-index: -100; }
+  position: sticky;
+  top: 0;
+  z-index: 100; }
   .navigation__logo {
     margin-top: .8rem;
     width: 17rem;

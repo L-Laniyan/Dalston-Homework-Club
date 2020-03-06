@@ -2,11 +2,13 @@
 background-color: $color-white;
 height: 10rem;
 width: 103vw;
+position: sticky;
+top:0;
 
 
 
   //margin-top: 24vh;
-  z-index: -100;
+  z-index: 100;
 
   &__logo{
     margin-top: .8rem;
