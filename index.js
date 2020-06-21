@@ -13,14 +13,19 @@
 // });
 
 var nav = document.getElementById('nav');
+var navList = document.querySelector('ul.navigation__list'); 
+//var navLink = document.querySelector('.navigation__link'); 
 window.onscroll = function(){
   if(window.pageYOffset >800) {
-    nav.style.background = "transparent";
-    nav.style.border = "solid ";
-    document.querySelector('.navigation__nav').style.color = "black";
+    nav.style.background = "rgba(0, 0, 0, 0.1)";
+    nav.style.borderBottom = "solid";
+    nav.style.color = "yellow";
+      navList.classList.add("nav_list");
+    //  navLink.classList.add("nav_link");
   }
   else if (window.pageYOffset <800){
-    nav.style.background = "white";
-    nav.style.border = "none";
+      nav.style.background = "white";
+      nav.style.border = "none";
+      navList.classList.remove("nav_list");
   }
 }

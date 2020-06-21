@@ -1,50 +1,44 @@
-.navigation{
-background-color: $color-white;
-height: 10rem;
-width: 103vw;
-position: sticky;
-top:0;
-
-
-
-  //margin-top: 24vh;
-  z-index: 100;
-
-  &__logo{
-    margin-top: .8rem;
-    width: 17rem;
-    position: relative;
+.navigation {
+    background-color: $color-white;
+    height: 10rem;
+    width: 103vw;
+    position: sticky;
     top: 0;
-    left: 10rem;
-    //opacity: 0.7; fade the logo looks better
-  }
+    //margin-top: 24vh;
+    z-index: 100;
 
-&__nav{
-width: 70rem;
+    &__logo {
+        margin-top: .8rem;
+        width: 17rem;
+        position: relative;
+        top: 0;
+        left: 10rem;
+        //opacity: 0.7; fade the logo looks better
+    }
 
-}
+    &__nav {
+        width: 70rem;
+    }
 
-  &__list{
-    width: 100%;
-    //border: 1px solid $color-black;
-    margin-top: 3rem;
-  }
+    &__list {
+        width: 100%;
+        //border: 1px solid $color-black;
+        margin-top: 3rem;
+    }
 
-  &__item{
-    display: inline;
-    margin-right: 2rem;
-    text-transform: uppercase;
-  }
+    &__item {
+        display: inline;
+        margin-right: 2rem;
+        text-transform: uppercase;
+    }
 
-  &__link{
-    text-decoration: none;
-    color: $color-grey-dark;
-    font-weight: 700;
-    font-size: 1.4rem;
-
-
-
-  }
+    &__link {
+        text-decoration: none;
+        color: $color-grey-dark;
+        font-weight: 700;
+        font-size: 1.4rem;
+       // color: yellow;
+    }
 }
 
 li:focus{
@@ -54,10 +48,8 @@ li:focus{
       border-bottom: 2px solid $color-tertiary-dark;
     }
 
-
           ul:hover > li:focus{
               background: none;
-
 
             }
             ul:hover > li:hover{
@@ -66,3 +58,14 @@ li:focus{
               padding-bottom: 1.2rem;
               border-bottom: 2px solid $color-tertiary-dark;
             }
+
+.nav_link {
+    color: black !important;
+}
+
+.nav_list:hover > li:hover {
+    outline: none;
+    padding-bottom: 1.2rem;
+    border-bottom: 2px solid yellow;
+    
+}
