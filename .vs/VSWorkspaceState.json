@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\sass"
+    "\\img",
+    "\\sass",
+    "\\sass\\components",
+    "\\sass\\layout"
   ],
-  "SelectedNode": "\\sass\\abstracts",
+  "SelectedNode": "\\sass\\components\\_button.scss",
   "PreviewInSolutionExplorer": false
 }
